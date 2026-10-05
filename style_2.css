@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #12e0a9, yellow);
+}
+.login-box{
+    width: 90%;
+    max-width: 380px;
+    padding: 35px 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgb(12, 121, 193) ;
+}
+h1{
+    text-align: center;
+    color:rgb(24, 184, 184);
+    margin: 0 0 10px;
+}
+.subtitle{
+    text-align: center;
+    color:rgb(26, 184, 184);
+    margin-bottom: 30px;
+}
+.input-group{
+    margin-bottom: 25px;
+}
+.input-group label{
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(24, 184, 184);
+    font-weight: bold;
+}
+.input-group input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #12e0a9;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.input-group input:focus{
+    border-color: aqua;
+    box-shadow: 0 0 6px rgba(24, 184, 184);
+}
+button{
+    width: 100%;
+    padding: 13px;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(24, 184, 184);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: aquamarine;
+    transform: translateY(-2px);
+}
+#pesan{
+    color: aquamarine;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.password-box {
+    position: relative;
+}
+
+.password-box input {
+    width: 100%;
+    padding-right: 45px;
+}
+
+#togglePassword {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
